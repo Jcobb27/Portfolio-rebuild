@@ -1,0 +1,71 @@
+body, html {
+    height: 100%;
+}
+
+.parallax { 
+    /* The image used */
+    background-image: url("images/jumbotron_bg.jfif");
+
+    /* Full height */
+    height: 300px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#header {
+    text-align: center;
+    font-weight: bold;
+}
+
+.jumbotron {
+    padding-bottom: 0;
+    padding: 6rem; 
+}
+
+.jumbotron2{
+    padding: 5rem;
+}
+
+#picture {
+    width: 200px;
+    height: auto; 
+    float:left;
+    margin: 0 10px 10px 0;
+}
+
+#CCcaption{
+    color: black;
+    font-size: 20px;
+    background-color: rgb(128, 128, 128, 0.9);
+}
+
+#aboutSection {
+    margin-bottom: 50px;
+}
+
+#aboutText {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 1.2rem;
+}
+
+#contactInfo{
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+#carouselContainer {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#contactInfo{
+    margin: 50px 0;
+}
+
+#subheading {
+    margin-left: 20px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}

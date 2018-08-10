@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Jennifer Cobb's Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--Bootstrap CDNs-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <!--Bootstrap CDNs-->
+    <!-- Font Awesome icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+</head>
+
+
+<body>
+    <!--Jumbotron-->
+    <div class="jumbotron parallax">
+
+        <div id="header">
+            <h1 class="display-4">Jennifer Cobb</h1>
+            <p class="lead">Full-Stack Web Developer</p>
+        </div>
+        <!-- Navbar-->
+        <nav class="navbar navbar-light navbar-expand-md bg-faded justify-content-center">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsingNavbar3">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="navbar-collapse collapse w-100" id="collapsingNavbar3">
+                <ul class="nav navbar-nav ml-auto w-100 justify-content-end">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+    </div>
+
+    <!--About Section-->
+    <div class="container" id="aboutSection">
+        <div class="row">
+            <h1 id="subheading">About Me</h1>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <img id="picture" class="img-thumbnail" src="images/jenn.jpg" alt="Photo of Jennifer">
+
+                <div id="aboutText"> My name is Jenn and I am currently a student in University of Central Florida's Coding Bootcamp for Full-Stack
+                    Web Development. I'm based in Orlando, Florida. I have a B.S. in Biology from Christian Brothers University
+                    and an M.S. in Environmental Science from Arkansas State University. I have a background of diverse work
+                    experience, including environmental consulting and teaching. However, I love coding and I'm excited to
+                    begin this new journey. Check back soon for more projects to come!</div>
+            </div>
+        </div>
+    </div>
+
+    <!--Portfolio Section-->
+    <div class="jumbotron2 jumbotron-fluid parallax">
+        <div id="header">
+            <h1 class="display-4">Portfolio</h1>
+        </div>
+    </div>
+
+    <div class="container" id="carouselContainer">
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <!--Carousel 1 Garden Hub-->
+                <div class="carousel-item active">
+                    <a href="https://jcobb27.github.io/GardenHub/" target="_blank">
+                        <img class="d-block w-100" src="images/GH screenshot2.png" alt="First slide">
+                    </a>
+                    <div class="carousel-caption" id="CCcaption">
+                        <p>Team project built using HTML, CSS, JS, JQuery, and Bootstrap. Provides soil data at an address using
+                            Google Maps API and Rest SoilGrids API. Provides planting recommendations based on soil information.</p>
+                        <a href="https://github.com/Jcobb27/GardenHub" target="_blank">
+                            <button type="button" class="btn btn-info">Link to Github Repository</button>
+                        </a>
+                    </div>
+                </div>
+                <!--Carousel 2 Crystals-->
+                <div class="carousel-item">
+                    <a href="https://jcobb27.github.io/unit-4-game/" target="_blank">
+                        <img class="d-block w-100" src="images/CC screenshot.PNG" alt="Second slide">
+                    </a>
+                    <div class="carousel-caption d-none d-md-block" id="CCcaption">
+                        <p>Crystals Collector Game created using HTML, CSS, Bootstrap, Javascript, and JQuery.</p>
+                        <a href="https://github.com/Jcobb27/unit-4-game" target="_blank">
+                            <button type="button" class="btn btn-info">Link to Github Repository</button>
+                        </a>
+                    </div>
+                </div>
+                <!--Carousel 3 Trivia-->
+                <div class="carousel-item">
+                    <a href="https://jcobb27.github.io/TriviaGame/" target="_blank">
+                        <img class="d-block w-100" src="images/trivia screenshot2.PNG" alt="Third slide">
+                    </a>
+                    <div class="carousel-caption d-none d-md-block" id="CCcaption">
+                        <p>Built using HTML, CSS, Bootstrap, JQuery, and Javascript. Answer the 10 trivia questions about outer
+                            space before the time runs out! (120 Seconds).</p>
+                        <a href="https://github.com/Jcobb27/TriviaGame" target="_blank">
+                            <button type="button" class="btn btn-info">Link to Github Repository</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+
+
+    <!--Contact Section-->
+    <div class="jumbotron2 jumbotron-fluid parallax">
+        <div id="header">
+            <h1 class="display-4">Contact</h1>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="container" id="contactInfo">
+            <div class="row">
+                <div class="col-3 offset-3">
+                    <h3>Email</h3>
+                    <p>
+                        <a href="mailto:jenn.cobb.m@gmail.com" target="_top">Jenn.cobb.m@gmail.com</a>
+                    </p>
+                    <h3>Phone Number</h3>
+                    <p>(901) 268-2761</p>
+                </div>
+                <div class="col-3">
+                    <a class="nav-link" href="https://github.com/Jcobb27" target="_blank">
+                        <i class="fa fa-github"></i>
+                        <a class="nav-link" href="https://www.linkedin.com/in/jennifer-cobb-92a28065" target="_blank">
+                            <i class="fa fa-linkedin"></i>
+                        </a>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+</body>
+
+</html>
