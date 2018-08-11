@@ -27,7 +27,7 @@
     <div class="jumbotron parallax">
 
         <div id="header">
-            <h1 class="display-4">Jennifer Cobb</h1>
+            <h1 class="display-4" id="jumboName">Jennifer Cobb</h1>
             <p class="lead">Full-Stack Web Developer</p>
         </div>
         <!-- Navbar-->
@@ -38,13 +38,13 @@
             <div class="navbar-collapse collapse w-100" id="collapsingNavbar3">
                 <ul class="nav navbar-nav ml-auto w-100 justify-content-end">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
+                        <a class="nav-link" href="#aboutSection">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Portfolio</a>
+                        <a class="nav-link" href="#portfolioSection">Portfolio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
+                        <a class="nav-link" href="#contactSection">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -71,7 +71,7 @@
     </div>
 
     <!--Portfolio Section-->
-    <div class="jumbotron2 jumbotron-fluid parallax">
+    <div class="jumbotron2 jumbotron-fluid parallax" id="portfolioSection">
         <div id="header">
             <h1 class="display-4">Portfolio</h1>
         </div>
@@ -85,7 +85,7 @@
                     <a href="https://jcobb27.github.io/GardenHub/" target="_blank">
                         <img class="d-block w-100" src="images/GH screenshot2.png" alt="First slide">
                     </a>
-                    <div class="carousel-caption" id="CCcaption">
+                    <div class="carousel-caption d-none d-md-block" id="CCcaption">
                         <p>Team project built using HTML, CSS, JS, JQuery, and Bootstrap. Provides soil data at an address using
                             Google Maps API and Rest SoilGrids API. Provides planting recommendations based on soil information.</p>
                         <a href="https://github.com/Jcobb27/GardenHub" target="_blank">
@@ -132,7 +132,7 @@
 
 
     <!--Contact Section-->
-    <div class="jumbotron2 jumbotron-fluid parallax">
+    <div class="jumbotron2 jumbotron-fluid parallax" id="contactSection">
         <div id="header">
             <h1 class="display-4">Contact</h1>
         </div>
@@ -141,27 +141,41 @@
     <div class="container">
         <div class="container" id="contactInfo">
             <div class="row">
-                <div class="col-3 offset-3">
+                <div class="col-xs-6 col-md-3 offset-md-3">
                     <h3>Email</h3>
                     <p>
                         <a href="mailto:jenn.cobb.m@gmail.com" target="_top">Jenn.cobb.m@gmail.com</a>
                     </p>
+
+                </div>
+                <div class="col-xs-6 col-md-3 offset-md-2">
+                    <a class="nav-link" href="https://github.com/Jcobb27" target="_blank">
+                        <i class="fa fa-github"></i>
+                    </a>
+
+
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-6 col-md-3 offset-md-3">
                     <h3>Phone Number</h3>
                     <p>(901) 268-2761</p>
                 </div>
-                <div class="col-3">
-                    <a class="nav-link" href="https://github.com/Jcobb27" target="_blank">
-                        <i class="fa fa-github"></i>
-                        <a class="nav-link" href="https://www.linkedin.com/in/jennifer-cobb-92a28065" target="_blank">
-                            <i class="fa fa-linkedin"></i>
-                        </a>
+                <div class="col-xs-6 col-md-3 offset-md-2">
+                    <a class="nav-link" href="https://www.linkedin.com/in/jennifer-cobb-92a28065" target="_blank">
+                        <i class="fa fa-linkedin"></i>
                     </a>
                 </div>
             </div>
         </div>
     </div>
 
-
+    <!--Footer-->
+    <footer class="footer">
+        <div class="container">
+            <span>Designed and Developed by Jennifer Cobb</span>
+        </div>
+    </footer>
 
 
 </body>
